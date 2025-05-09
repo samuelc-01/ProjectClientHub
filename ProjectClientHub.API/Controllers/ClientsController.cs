@@ -11,6 +11,7 @@ namespace ProjectClientHub.API.Controllers
     {
         [HttpPost]
         [ProducesResponseType(typeof(ResponseClientJson),StatusCodes.Status201Created)]
+        [ProducesResponseType(typeof(ResponseErrorMessagesJson),StatusCodes.Status400BadRequest)]
         public IActionResult Register([FromBody] RequestClientJson request)
         {
             try
@@ -19,9 +20,13 @@ namespace ProjectClientHub.API.Controllers
                 var response = useCase.Execute(request);
                 return Created(string.Empty, response);
             }
-            catch (Exception ex) 
-            { 
-                
+            catch (ArgumentException ex)
+            {
+                return BadRequest(new ResponseErrorMessagesJson(ex.Message));
+            }
+            catch 
+            {
+                return StatusCode(StatusCodes.Status500InternalServerError, new ResponseErrorMessagesJson("Erro desconhecido"));
             }
         }
 
