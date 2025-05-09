@@ -24,11 +24,10 @@ Você irá aprender a:
 - [Visual Studio 2022](https://visualstudio.microsoft.com/)
 - Swagger (OpenAPI) para documentação
 
-## 📦 Estrutura do Projeto
+### ✅ Usando o Visual Studio 2022
 
 ## 🚀 Como Executar o Projeto
 
-### ✅ Usando o Visual Studio 2022
 
 1. **Clone o repositório**:
    ```bash
@@ -47,12 +46,13 @@ Você irá aprender a:
     ```bash    
     Pressione F5 ou clique em Start Debugging
 
-4. **A aplicação estará disponível com Swagger**:
+5. **A aplicação estará disponível com Swagger**:
     ```bash 
     https://localhost:5001/swagger
 
-**Estrutura Básica do Projeto**:
-   ```bash
+## 📦 Estrutura do Projeto
+
+```bash
 📁 ProjectClientHub.API
  ┣ 📂 Controllers
  ┣ 📂 Models
@@ -60,5 +60,4 @@ Você irá aprender a:
  ┣ 📂 Validators
  ┣ 📄 Program.cs
  ┗ 📄 Startup.cs
-
 
