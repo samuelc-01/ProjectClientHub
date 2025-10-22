@@ -1,16 +1,14 @@
 # C# com ASP.NET Core 🚀
 
-Neste curso gratuito, você aprenderá a desenvolver uma API RESTful do zero utilizando C# e ASP.NET Core. Abordaremos desde os **fundamentos da linguagem** até a construção de aplicações modernas, seguras e escaláveis.
-
 ## 📚 Conteúdo 
 
-- ✅ Entender os conceitos básicos de C# e .NET
-- ✅ Criar uma Web API com ASP.NET Core
-- ✅ Implementar operações de **CRUD**: criar, visualizar, editar e excluir dados
-- ✅ Validar dados com anotações e classes personalizadas
-- ✅ Aplicar tratamento de erros eficaz com **Middlewares**
-- ✅ Integrar sua API com banco de dados usando **Entity Framework Core**
-- ✅ Seguir boas práticas para organização e escalabilidade de projetos
+
+- ✅ Web API com ASP.NET Core
+- ✅ **CRUD**: criar, visualizar, editar e excluir dados
+- ✅ Validacao dados com anotações e classes personalizadas
+- ✅ Aplicacao tratamento de erros eficaz com **Middlewares**
+- ✅ Integracao  com banco de dados usando **Entity Framework Core**
+- ✅ Boas práticas para organização e escalabilidade de projetos
 
 ## 🛠 Tecnologias Utilizadas
 
