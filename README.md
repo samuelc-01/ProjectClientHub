@@ -1,52 +1,55 @@
-# C# com ASP.NET Core 🚀
+# C# with ASP.NET Core 🚀
 
-## 📚 Conteúdo 
+## 📚 Content
 
+- ✅ Web API with ASP.NET Core
+- ✅ **CRUD**: create, view, edit, and delete data
+- ✅ Data validation with annotations and custom classes
+- ✅ Effective error handling with **Middlewares**
+- ✅ Database integration using **Entity Framework Core**
+- ✅ Best practices for project organization and scalability
 
-- ✅ Web API com ASP.NET Core
-- ✅ **CRUD**: criar, visualizar, editar e excluir dados
-- ✅ Validacao dados com anotações e classes personalizadas
-- ✅ Aplicacao tratamento de erros eficaz com **Middlewares**
-- ✅ Integracao  com banco de dados usando **Entity Framework Core**
-- ✅ Boas práticas para organização e escalabilidade de projetos
+## 🛠 Technologies Used
 
-## 🛠 Tecnologias Utilizadas
-
-- [C#](https://learn.microsoft.com/pt-br/dotnet/csharp/)
-- [.NET 6 ou superior](https://dotnet.microsoft.com/)
-- [ASP.NET Core](https://learn.microsoft.com/pt-br/aspnet/core/)
-- [Entity Framework Core](https://learn.microsoft.com/pt-br/ef/core/)
-- [SQL Server ou SQLite](https://www.sqlite.org/index.html)
+- [C#](https://learn.microsoft.com/en-us/dotnet/csharp/)
+- [.NET 6 or higher](https://dotnet.microsoft.com/)
+- [ASP.NET Core](https://learn.microsoft.com/en-us/aspnet/core/)
+- [Entity Framework Core](https://learn.microsoft.com/en-us/ef/core/)
+- [SQL Server or SQLite](https://www.sqlite.org/index.html)
 - [Visual Studio 2022](https://visualstudio.microsoft.com/)
-- Swagger (OpenAPI) para documentação
+- Swagger (OpenAPI) for documentation
 
-### ✅ Usando o Visual Studio 2022
+### ✅ Using Visual Studio 2022
 
-## 🚀 Como Executar o Projeto
+## 🚀 How to Run the Project
 
-
-1. **Clone o repositório**:
+1. **Clone the repository**:
    ```bash
-   git clone https://github.com/seu-usuario/curso-csharp-api.git
+   git clone https://github.com/your-username/curso-csharp-api.git
    cd curso-csharp-api
+   ```
 
-2. **Abra o arquivo da solução no Visual Studio**:
+2. **Open the solution file in Visual Studio**:
    ```bash
-    Arquivo: ProjectClientHub.API.sln
+   File: ProjectClientHub.API.sln
+   ```
 
-3. **Configure o projeto de inicialização**:
+3. **Set the startup project**:
    ```bash
-    Clique com o botão direito sobre ProjectClientHub.API > Set as Startup Project
+   Right-click on ProjectClientHub.API > Set as Startup Project
+   ```
 
-4. **Execute a aplicação**:
-    ```bash    
-    Pressione F5 ou clique em Start Debugging
+4. **Run the application**:
+   ```bash
+   Press F5 or click Start Debugging
+   ```
 
-5. **A aplicação estará disponível com Swagger**:
-    ```bash 
-    https://localhost:5001/swagger
+5. **The application will be available via Swagger**:
+   ```bash
+   https://localhost:5001/swagger
+   ```
 
-## 📦 Estrutura do Projeto
+## 📦 Project Structure
 
 ```bash
 📁 ProjectClientHub.API
@@ -56,4 +59,4 @@
  ┣ 📂 Validators
  ┣ 📄 Program.cs
  ┗ 📄 Startup.cs
-
+```
